@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.239855">
+<testcase classname="signup functionality" name="edit profile" time="14.239855">
+<system-out><![CDATA[Given user is in homepage...................................................passed
+When user enters valid user"agnaali369" and pass"sarang123".................passed
+Then user clicks login option...............................................passed
+Then user clicks on the homepage............................................passed
+Then click on the edit option...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

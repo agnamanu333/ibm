@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "background session",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6023753500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in homepage",
+            "match": {
+              "location": "test.user_is_in_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-24T06:40:18.895Z",
+        "line": 88,
+        "name": "edit profile",
+        "description": "",
+        "id": "signup-functionality;edit-profile;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 244193200,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "user enters valid user\"agnaali369\" and pass\"sarang123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"agnaali369\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"sarang123\"",
+                  "offset": 43
+                }
+              ],
+              "location": "test.user_enters_valid_user_and_pass(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2239700400,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "user clicks login option",
+            "match": {
+              "location": "test.user_clicks_login_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 775708800,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "user clicks on the homepage",
+            "match": {
+              "location": "test.user_clicks_on_the_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4953383100,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "click on the edit option",
+            "match": {
+              "location": "test.click_on_the_edit_option()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4"
+          }
+        ]
+      }
+    ],
+    "name": "signup functionality",
+    "description": "",
+    "id": "signup-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/elearning.feature",
+    "tags": []
+  }
+]
